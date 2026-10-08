@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أكاديمية الوسام | ELWESAM Academy</title>
+<style>
+:root{--navy:#071a33;--navy2:#0d2a4d;--gold:#d4af57;--cream:#fbf8f0;--text:#18263a;--muted:#687589;--line:#e5e9ef}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Tahoma,sans-serif;color:var(--text);background:#f7f9fc}a{text-decoration:none}
+.top{background:var(--navy);color:#dce5ef;text-align:center;font-size:13px;padding:9px}
+nav{height:76px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 7%;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.logo{font-weight:900;font-size:22px;color:var(--navy);letter-spacing:.5px}.logo span{color:var(--gold)}
+.links a{color:#334155;margin-right:25px;font-size:14px;font-weight:700}.navbtn{background:var(--navy);color:#fff!important;padding:11px 18px;border-radius:9px}
+.hero{background:linear-gradient(120deg,var(--navy),#12365e);color:#fff;padding:92px 7% 105px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(212,175,87,.25);border-radius:50%;left:-140px;top:-180px}.hero:after{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(255,255,255,.08);border-radius:50%;right:-80px;bottom:-120px}
+.hero-inner{max-width:1120px;margin:auto;position:relative;z-index:2}.eyebrow{display:inline-flex;border:1px solid rgba(212,175,87,.65);color:#f0d48c;border-radius:30px;padding:8px 15px;font-size:13px;font-weight:700;margin-bottom:20px}
+h1{font-size:52px;line-height:1.15;margin:0 0 18px;max-width:760px}.hero p{max-width:720px;color:#dce7f3;font-size:18px;line-height:2;margin:0}.actions{margin-top:28px;display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 24px;border-radius:10px;font-weight:800;display:inline-block}.primary{background:var(--gold);color:#13233a}.secondary{border:1px solid #91a4b9;color:#fff}
+.section{max-width:1120px;margin:auto;padding:78px 7%}.heading{text-align:center;margin-bottom:42px}.heading h2{font-size:32px;margin:0 0 10px;color:var(--navy)}.heading p{color:var(--muted);margin:0;line-height:1.8}
+.stats{background:#fff;border-bottom:1px solid var(--line)}.stats-grid{max-width:1120px;margin:auto;padding:26px 7%;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}.stat strong{display:block;color:var(--navy);font-size:27px}.stat span{color:var(--muted);font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:29px;box-shadow:0 10px 35px rgba(10,30,55,.06)}.icon{width:48px;height:48px;border-radius:13px;background:#f8efd8;color:#8c6a24;display:grid;place-items:center;font-size:21px;margin-bottom:18px}.card h3{margin:0 0 10px;font-size:20px}.card p{margin:0;color:var(--muted);line-height:1.9}
+.about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}.about p{color:#5e6c7f;line-height:2;font-size:16px}.about-box{background:var(--navy);border-radius:22px;padding:35px;color:#fff;box-shadow:0 15px 35px rgba(7,26,51,.16)}.about-box .big{font-size:48px;color:#f0cf73;font-weight:900}.about-box p{color:#d5dfeb}
+.form-section{background:#f7f9fc}.form{background:#fff;border:1px solid var(--line);border-radius:20px;padding:35px;box-shadow:0 12px 40px rgba(10,30,55,.07);max-width:850px;margin:auto}.grid{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.field{margin-bottom:16px}.field.full{grid-column:1/-1}label{display:block;font-size:14px;font-weight:800;margin:0 0 7px}input,select,textarea{width:100%;border:1px solid #d6dde7;border-radius:10px;padding:13px 14px;font:inherit;color:var(--text);background:#fff;outline:none}input:focus,select:focus,textarea:focus{border-color:#9c7a32;box-shadow:0 0 0 3px rgba(212,175,87,.12)}textarea{min-height:125px;resize:vertical}.submit{width:100%;border:0;border-radius:10px;background:var(--navy);color:#fff;padding:15px;font-size:16px;font-weight:900;cursor:pointer;margin-top:4px}.privacy{font-size:12px;color:#8993a2;text-align:center;margin:12px 0 0}
+footer{background:#05152a;color:#b9c6d5;text-align:center;padding:35px 7%}.footer-logo{color:#fff;font-size:20px;font-weight:900}.footer-logo span{color:var(--gold)}footer p{font-size:13px}
+@media(max-width:760px){nav{padding:0 5%}.links a:not(.navbtn){display:none}.hero{padding:70px 6% 80px}h1{font-size:37px}.stats-grid,.cards,.about-grid,.grid{grid-template-columns:1fr}.section{padding:58px 6%}.field.full{grid-column:auto}.form{padding:23px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="top">التسجيل مفتوح — تعلّم مهارات الكمبيوتر أونلاين</div>
+<nav>
+  <div class="logo">ELWESAM <span>ACADEMY</span></div>
+  <div class="links">
+    <a href="#courses">الدورات</a><a href="#about">عن الأكاديمية</a><a href="#register" class="navbtn">التسجيل</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">أكاديمية تعليمية أونلاين</div>
+    <h1>طوّر مهاراتك الرقمية، وابنِ مستقبلك بثقة.</h1>
+    <p>تدريب عملي ومنظم في مهارات الكمبيوتر والبرامج المكتبية والمهارات الرقمية، مناسب للمبتدئين والطلاب والمهتمين بتطوير أنفسهم.</p>
+    <div class="actions"><a class="btn primary" href="#register">ابدأ التسجيل</a><a class="btn secondary" href="#courses">استكشف البرامج</a></div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat"><strong>15+</strong><span>سنة خبرة تعليمية</span></div>
+    <div class="stat"><strong>أونلاين</strong><span>تعلم من أي مكان</span></div>
+    <div class="stat"><strong>عملي</strong><span>محتوى واضح ومنظم</span></div>
+  </div>
+</section>
+
+<section class="section" id="courses">
+  <div class="heading"><h2>البرامج التعليمية</h2><p>برامج مصممة لتطوير مهاراتك خطوة بخطوة.</p></div>
+  <div class="cards">
+    <div class="card"><div class="icon">⌨</div><h3>مهارات الكمبيوتر</h3><p>أساسيات استخدام الكمبيوتر والمهارات اليومية بطريقة سهلة وعملية.</p></div>
+    <div class="card"><div class="icon">▣</div><h3>Microsoft Office</h3><p>تعلّم Word وExcel وPowerPoint ومهارات العمل المكتبي الأساسية.</p></div>
+    <div class="card"><div class="icon">✦</div><h3>المهارات الرقمية</h3><p>مهارات رقمية تساعدك في الدراسة والعمل والاستخدام اليومي للتقنية.</p></div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="section about-grid" id="about">
+    <div><div class="heading" style="text-align:right;margin-bottom:15px"><h2>عن أكاديمية الوسام</h2></div><p>نقدّم تدريبًا إلكترونيًا يركز على الفهم والتطبيق، مع تبسيط المهارات التقنية للمتعلمين بمستوياتهم المختلفة.</p><p>هدفنا أن يحصل المتعلم على معرفة عملية يستطيع استخدامها في دراسته أو عمله وحياته اليومية.</p></div>
+    <div class="about-box"><div class="big">15+</div><div>سنوات من الخبرة التعليمية</div><p>خبرة في تعليم الكمبيوتر والمهارات الرقمية وتقديم التدريب بطريقة مبسطة ومنهجية.</p></div>
+  </div>
+</section>
+
+<section class="section form-section" id="register">
+  <div class="heading"><h2>سجّل اهتمامك</h2><p>أرسل بياناتك وسنتواصل معك لمساعدتك في اختيار البرنامج المناسب.</p></div>
+  <form class="form" action="https://formspree.io/f/mrpeelnr" method="POST">
+    <div class="grid">
+      <div class="field"><label>الاسم الكامل</label><input name="name" type="text" required placeholder="اكتب اسمك الكامل"></div>
+      <div class="field"><label>البريد الإلكتروني</label><input name="email" type="email" required placeholder="name@example.com"></div>
+      <div class="field"><label>رقم الهاتف</label><input name="phone" type="tel" inputmode="tel" required placeholder="رقم الهاتف"></div>
+      <div class="field"><label>الدولة</label><input name="country" type="text" placeholder="الدولة"></div>
+      <div class="field"><label>الباقة / البرنامج</label><select name="package" required><option value="" disabled selected>اختر البرنامج</option><option>مهارات الكمبيوتر</option><option>Microsoft Office</option><option>المهارات الرقمية</option><option>الباقة الشاملة</option></select></div>
+      <div class="field"><label>مستوى الخبرة</label><select name="level"><option>مبتدئ</option><option>متوسط</option><option>متقدم</option></select></div>
+      <div class="field full"><label>ملاحظات أو استفسار</label><textarea name="message" placeholder="اكتب أي تفاصيل إضافية تريد إخبارنا بها"></textarea></div>
+    </div>
+    <button class="submit" type="submit">إرسال طلب التسجيل</button>
+    <div class="privacy">سيتم استخدام بيانات التسجيل للتواصل معك بخصوص البرنامج الذي اخترته.</div>
+  </form>
+</section>
+
+<footer><div class="footer-logo">ELWESAM <span>ACADEMY</span></div><p>تعليم مهارات الكمبيوتر والمهارات الرقمية أونلاين</p><small>© 2026 ELWESAM Academy</small></footer>
+</body>
+</html>
